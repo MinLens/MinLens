@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0032)file:///D:/webjasmin/tverde.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tonos Verdes</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="img/logo.jpeg">
-    <link rel="stylesheet" href="otrsty.css">
+    <title>tverde</title>
+    <link rel="stylesheet" href="./tverde_files/index.css">
+    <link rel="icon" href="./tverde_files/logo.jpeg">
+    <link rel="stylesheet" href="./tverde_files/otrsty.css">
 </head>
 <body>
        
@@ -18,12 +18,12 @@
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     
-    <a class="navbar-brand " href="index.html" >
-      <img src="img/logo.jpeg" alt="" style="width: 120px;">
+    <a class="navbar-brand " href="file:///D:/webjasmin/index.html">
+      <img src="./tverde_files/logo.jpeg" alt="" style="width: 120px;">
     </a>
 
     <a class="navbar-brand " href="https://wa.link/fad8s8" target="_blank">
-      <img src="img/wasa.png" alt="" style="width: 40px; float: right;">
+      <img src="./tverde_files/wasa.png" alt="" style="width: 40px; float: right;">
 
     </a>
   
@@ -31,57 +31,192 @@
 </nav>
 
 <!--Scrip para contraer el menu -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="./tverde_files/bootstrap.bundle.min.js.descarga"></script>
 <!--Fin-->
+
+<!-- scrip para cocultar -->
+<div id="ocultar" style="display: none;"> 
+  <p>*IMPORTANTE GUARDAR* //Amarillo = Oculto  //Verde = Mostrar//</p>
+  
+  <button id="b1" style="background: yellow;" onclick="mel()">Mel</button>
+  <button id="b2" style="background: green;" onclick="gray()">Green Gray</button>
+  <button id="b3" style="background: yellow;" onclick="haze()">Haze</button>
+  <button id="b4" style="background: yellow;" onclick="malakite()">Malakite</button>
+  <button id="b5" style="background: yellow;" onclick="amber()">Amber</button>
+  <button id="b6" style="background: yellow;" onclick="celina()">Celine Gray</button>
+  <button id="b7" style="background: green;" onclick="lima()">Lima</button>
+  <button id="b8" style="background: yellow;" onclick="mint()">Mint</button>
+  <button id="b9" style="background: yellow;" onclick="arena()">AD Arena</button>
+  <button id="b10" style="background: green;" onclick="quartzo()">Quartzo</button>
+
+  <button style="background: red;" onclick="ocultar()">Guardar</button>
+
+  <script>
+
+  function mel() {
+    
+      var a = document.getElementById("mel");
+      
+         
+      if (a.style.display === "none") {
+          a.style.display = "block";  
+          document.getElementById("b1").style.background ="green";          
+      } else {
+          document.getElementById("b1").style.background ="yellow";
+          a.style.display = "none";
+      }
+  }
+  function gray(){
+      var b = document.getElementById("gray");
+      if (b.style.display === "none") {
+          b.style.display = "block"; 
+          document.getElementById("b2").style.background ="green";
+
+      } else {
+          b.style.display = "none";
+          document.getElementById("b2").style.background ="yellow";
+      }
+  }
+  function haze() {
+      var c = document.getElementById("haze");
+         
+      if (c.style.display === "none") {
+          c.style.display = "block";  
+          document.getElementById("b3").style.background ="green";           
+      } else {
+          c.style.display = "none";
+          document.getElementById("b3").style.background ="yellow";
+      }
+  }
+  function malakite(){
+      var d = document.getElementById("malakite");
+      if (d.style.display === "none") {
+          d.style.display = "block";
+          document.getElementById("b4").style.background ="green";             
+      } else {
+          d.style.display = "none";
+          document.getElementById("b4").style.background ="yellow";
+      }
+  }
+  function amber() {
+      var e = document.getElementById("amber");
+         
+      if (e.style.display === "none") {
+          e.style.display = "block";  
+          document.getElementById("b5").style.background ="green";           
+      } else {
+          e.style.display = "none";
+          document.getElementById("b5").style.background ="yellow";
+      }
+  }
+  function celina() {
+      var f = document.getElementById("celina");
+         
+      if (f.style.display === "none") {
+          f.style.display = "block";
+          document.getElementById("b6").style.background ="green";            
+      } else {
+          f.style.display = "none";
+          document.getElementById("b6").style.background ="yellow";
+      }
+  }
+  function lima() {
+      var g = document.getElementById("lima");
+         
+      if (g.style.display === "none") {
+          g.style.display = "block";
+          document.getElementById("b7").style.background ="green";            
+      } else {
+          g.style.display = "none";
+          document.getElementById("b7").style.background ="yellow";
+      }
+  }
+  function mint() {
+      var e = document.getElementById("mint");
+         
+      if (e.style.display === "none") {
+          e.style.display = "block";
+          document.getElementById("b8").style.background ="green";            
+      } else {
+          e.style.display = "none";
+          document.getElementById("b8").style.background ="yellow";
+      }
+  }
+  function arena() {
+      var i= document.getElementById("arena");
+         
+      if (i.style.display === "none") {
+          i.style.display = "block";
+          document.getElementById("b9").style.background ="green";            
+      } else {
+          i.style.display = "none";
+          document.getElementById("b9").style.background ="yellow";
+      }
+  }
+  function quartzo() {
+      var h = document.getElementById("quartzo");
+         
+      if (h.style.display === "none") {
+          h.style.display = "block";
+          document.getElementById("b10").style.background ="green";            
+      } else {
+          h.style.display = "none";
+          document.getElementById("b10").style.background ="yellow";
+      }
+  }
+
+
+  </script>
+</div>
 
     <hr>
     <center>
-    <h1 style="margin:2% 0 2% 0 ;"> ✨Tonos Verde ✨</h1>
+    <h1 style="margin:2% 0 2% 0 ;">✨Tonos<button onclick="ocultar()" style="height:28px ; border: none;background:none"></button>Verde✨</h1>
    </center>
    <hr>
 
   <!--Cartas de ventas-->
   <div class="row gx-2 gx-lg-2 row-cols-2 row-cols-md-3 row-cols-xl-3 justify-content-center br" style="margin-left: 1%; margin-right:1%;">
-<!--
-    <div class="col mb-2" >
+
+    <div class="col mb-2" id="mel" style="display: none;">
         <div class="card shadow " style="border-radius: 5%;">
 
-            <img class="card-img-top" src="imgle/MEL.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
-                <div class="text-center" style="margin-top: 3%;" >
+            <img class="card-img-top" src="./tverde_files/MEL.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
+                <div class="text-center" style="margin-top: 3%;">
                     <h5 class="fw-bolder">MEL</h5>
                     S/40.00 PEN
                 </div>
             <div class="card-footer border-top-0 bg-transparent" style="text-align: center;">
               
-          <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1" class="btn btn-outline-dark mt-auto"  style="margin: 4% ;font-size: 70%;">
+          <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1" class="btn btn-outline-dark mt-auto" style="margin: 4% ;font-size: 70%;">
             Ver
           </button>
-            <a href="https://api.whatsapp.com/send?phone=51917580268&text=%C2%A1%20Hola%20Min%20Lens%20!%20quisiera%20el%20color%20MEL%20(S/40.00)" target="_blank"> 
-          <button  class="btn btn-outline-dark mt-auto" style="margin:4%; font-size: 70%;">
+            <a href="https://api.whatsapp.com/send?phone=51917580268&amp;text=%C2%A1%20Hola%20Min%20Lens%20!%20quisiera%20el%20color%20MEL%20(S/40.00)" target="_blank"> 
+          <button class="btn btn-outline-dark mt-auto" style="margin:4%; font-size: 70%;">
             Comprar
           </button></a>
          
 
             </div>
         </div>
-    </div>-->
+    </div>
 
 
 
-    <div class="col mb-2">
+    <div class="col mb-2" id="gray" style="display: block;">
       <div class="card shadow" style="border-radius: 5%;">
-          <img class="card-img-top" src="imgle/teilo.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
-              <div class="text-center" style="margin-top: 3%;" >
+          <img class="card-img-top" src="./tverde_files/teilo.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
+              <div class="text-center" style="margin-top: 3%;">
                   <h5 class="fw-bolder">GREEN GRAY </h5>
                   S/40.00 PEN
               </div>
           <div class="card-footer  border-top-0 bg-transparent" style="text-align: center;">
                    
-          <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2" class="btn btn-outline-dark mt-auto"  style="margin: 4% ;font-size: 70%;">
+          <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2" class="btn btn-outline-dark mt-auto" style="margin: 4% ;font-size: 70%;">
             Ver
           </button>
-          <a href="https://api.whatsapp.com/send?phone=51917580268&text=%C2%A1%20Hola%20Min%20Lens%20!%20quisiera%20el%20color%20Taylor%20Green%20Gray%20(S/40.00)" target="_blank">
-          <button  class="btn btn-outline-dark mt-auto" style="margin:4%; font-size: 70%;">
+          <a href="https://api.whatsapp.com/send?phone=51917580268&amp;text=%C2%A1%20Hola%20Min%20Lens%20!%20quisiera%20el%20color%20Taylor%20Green%20Gray%20(S/40.00)" target="_blank">
+          <button class="btn btn-outline-dark mt-auto" style="margin:4%; font-size: 70%;">
             Comprar
           </button></a>
           
@@ -90,46 +225,46 @@
   </div>
 
 
-<!--
-    <div class="col mb-2">
+
+    <div class="col mb-2" id="haze" style="display: none;">
       <div class="card  shadow" style="border-radius: 5%">
 
-          <img class="card-img-top" src="imgle/hate.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
-              <div class="text-center" style="margin-top: 3%;" >
+          <img class="card-img-top" src="./tverde_files/hate.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
+              <div class="text-center" style="margin-top: 3%;">
                   <h5 class="fw-bolder">HAZE</h5>
                   S/40.00 PEN
               </div>
           <div class="card-footer  border-top-0 bg-transparent" style="text-align: center ;">
                    
-          <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal3" class="btn btn-outline-dark mt-auto"  style="margin: 4% ;font-size: 70%;">
+          <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal3" class="btn btn-outline-dark mt-auto" style="margin: 4% ;font-size: 70%;">
             Ver
           </button>
-           <a href="https://api.whatsapp.com/send?phone=51917580268&text=%C2%A1%20Hola%20Min%20Lens%20!%20quisiera%20el%20color%20HAZE%20(S/40.00)" target="_blank"> 
-          <button  class="btn btn-outline-dark mt-auto" style="margin:4%; font-size: 70%;">
+           <a href="https://api.whatsapp.com/send?phone=51917580268&amp;text=%C2%A1%20Hola%20Min%20Lens%20!%20quisiera%20el%20color%20HAZE%20(S/40.00)" target="_blank"> 
+          <button class="btn btn-outline-dark mt-auto" style="margin:4%; font-size: 70%;">
             Comprar
           </button></a>
           
 
           </div>
       </div>
-  </div> -->
+  </div> 
 
 
 
-  <div class="col mb-2">
+  <div class="col mb-2" id="malakite" style="display: none;">
     <div class="card shadow" style="border-radius: 5%;">
-        <img class="card-img-top" src="imgle/mala.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
-            <div class="text-center" style="margin-top: 3%;" >
+        <img class="card-img-top" src="./tverde_files/mala.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
+            <div class="text-center" style="margin-top: 3%;">
                 <h5 class="fw-bolder">MALAKITE</h5>
                 S/40.00 PEN
             </div>
         <div class="card-footer  border-top-0 bg-transparent" style="text-align: center;">
                  <!-- inicio de nodal-->
-        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal5" class="btn btn-outline-dark mt-auto"  style="margin: 4% ;font-size: 70%;">
+        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal5" class="btn btn-outline-dark mt-auto" style="margin: 4% ;font-size: 70%;">
           Ver
         </button>
-        <a href="https://api.whatsapp.com/send?phone=51917580268&text=%C2%A1%20Hola%20Min%20Lens%20!%20quisiera%20el%20color%20MALAKITE%20(S/40.00)" target="_blank">
-        <button  class="btn btn-outline-dark mt-auto" style="margin:4%; font-size: 70%;">
+        <a href="https://api.whatsapp.com/send?phone=51917580268&amp;text=%C2%A1%20Hola%20Min%20Lens%20!%20quisiera%20el%20color%20MALAKITE%20(S/40.00)" target="_blank">
+        <button class="btn btn-outline-dark mt-auto" style="margin:4%; font-size: 70%;">
           Comprar
         </button></a>
         <!-- inicio de nodal-->
@@ -138,107 +273,149 @@
 </div>
 
 
-<!--
-  <div class="col mb-2">
+
+  <div class="col mb-2" id="amber" style="display: none;">
     <div class="card  shadow" style="border-radius: 5%; ">
 
 
-        <img class="card-img-top" src="imgle/AMBER.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
-            <div class="text-center" style="margin-top: 3%;" >
+        <img class="card-img-top" src="./tverde_files/AMBER.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
+            <div class="text-center" style="margin-top: 3%;">
                 <h5 class="fw-bolder">AMBER</h5>
                 S/40.00 PEN
             </div>
         <div class="card-footer  border-top-0 bg-transparent" style="text-align:  center;">
                    
-                   <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal4" class="btn btn-outline-dark mt-auto"  style="margin: 4% ;font-size: 70%;">
+                   <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal4" class="btn btn-outline-dark mt-auto" style="margin: 4% ;font-size: 70%;">
                     Ver
                   </button>
-                   <a href="https://api.whatsapp.com/send?phone=51917580268&text=%C2%A1%20Hola%20Min%20Lens%20!%20quisiera%20el%20color%20AMBER%20(S/40.00)" target="_blank"> 
-                  <button  class="btn btn-outline-dark mt-auto" style="margin:4%; font-size: 70%;">
+                   <a href="https://api.whatsapp.com/send?phone=51917580268&amp;text=%C2%A1%20Hola%20Min%20Lens%20!%20quisiera%20el%20color%20AMBER%20(S/40.00)" target="_blank"> 
+                  <button class="btn btn-outline-dark mt-auto" style="margin:4%; font-size: 70%;">
                     Comprar
                   </button></a>
                   
             
         </div>
     </div>
-</div> -->
+</div> 
 
-<!--
-<div class="col mb-2">
+
+<div class="col mb-2" id="celina" style="display: none;">
   <div class="card  shadow" style="border-radius: 5%; ">
 
 
-      <img class="card-img-top" src="imges/celiafue.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
-          <div class="text-center" style="margin-top: 3%;" >
+      <img class="card-img-top" src="./tverde_files/celiafue.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
+          <div class="text-center" style="margin-top: 3%;">
               <h5 class="fw-bolder">CELINE GRAY</h5>
               S/40.00 PEN
           </div>
       <div class="card-footer  border-top-0 bg-transparent" style="text-align:  center;">
                  
-                 <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal8" class="btn btn-outline-dark mt-auto"  style="margin: 4% ;font-size: 70%;">
+                 <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal8" class="btn btn-outline-dark mt-auto" style="margin: 4% ;font-size: 70%;">
                   Ver
                 </button>
-                 <a href="https://api.whatsapp.com/send?phone=51917580268&text=%C2%A1%20Hola%20Min%20Lens%20!%20quisiera%20el%20color%20CELINE%20GRAY%20(S/40.00)" target="_blank"> 
-                <button  class="btn btn-outline-dark mt-auto" style="margin:4%; font-size: 70%;">
+                 <a href="https://api.whatsapp.com/send?phone=51917580268&amp;text=%C2%A1%20Hola%20Min%20Lens%20!%20quisiera%20el%20color%20CELINE%20GRAY%20(S/40.00)" target="_blank"> 
+                <button class="btn btn-outline-dark mt-auto" style="margin:4%; font-size: 70%;">
                   Comprar
                 </button></a>    
       </div>
   </div>
-</div> -->
+</div> 
 
-<!--
-<div class="col mb-2">
+
+<div class="col mb-2" id="lima" style="display: block;">
   <div class="card  shadow" style="border-radius: 5%">
 
-      <img class="card-img-top" src="imges/lima.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
-          <div class="text-center" style="margin-top: 3%;" >
+      <img class="card-img-top" src="./tverde_files/lima.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
+          <div class="text-center" style="margin-top: 3%;">
               <h5 class="fw-bolder">LIMA</h5>
               S/40.00 PEN
           </div>
       <div class="card-footer  border-top-0 bg-transparent" style="text-align: center ;">
                
-      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal6" class="btn btn-outline-dark mt-auto"  style="margin: 4% ;font-size: 70%;">
+      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal6" class="btn btn-outline-dark mt-auto" style="margin: 4% ;font-size: 70%;">
         Ver
       </button>
-       <a href="https://api.whatsapp.com/send?phone=51917580268&text=%C2%A1%20Hola%20Min%20Lens%20!%20quisiera%20el%20color%20LIMA%20(S/40.00)" target="_blank"> 
-      <button  class="btn btn-outline-dark mt-auto" style="margin:4%; font-size: 70%;">
+       <a href="https://api.whatsapp.com/send?phone=51917580268&amp;text=%C2%A1%20Hola%20Min%20Lens%20!%20quisiera%20el%20color%20LIMA%20(S/40.00)" target="_blank"> 
+      <button class="btn btn-outline-dark mt-auto" style="margin:4%; font-size: 70%;">
         Comprar
       </button></a>
       
 
       </div>
   </div>
-</div> -->
+</div> 
 
-<!-- 
-<div class="col mb-2">
+
+<div class="col mb-2" id="mint" style="display: none;">
   <div class="card  shadow" style="border-radius: 5%">
 
-      <img class="card-img-top" src="imges/mintfu.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
-          <div class="text-center" style="margin-top: 3%;" >
+      <img class="card-img-top" src="./tverde_files/mintfu.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
+          <div class="text-center" style="margin-top: 3%;">
               <h5 class="fw-bolder">MINT</h5>
               S/40.00 PEN
           </div>
       <div class="card-footer  border-top-0 bg-transparent" style="text-align: center ;">
                
-      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal7" class="btn btn-outline-dark mt-auto"  style="margin: 4% ;font-size: 70%;">
+      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal7" class="btn btn-outline-dark mt-auto" style="margin: 4% ;font-size: 70%;">
         Ver
       </button>
-       <a href="https://api.whatsapp.com/send?phone=51917580268&text=%C2%A1%20Hola%20Min%20Lens%20!%20quisiera%20el%20color%20MINT%20(S/40.00)" target="_blank"> 
-      <button  class="btn btn-outline-dark mt-auto" style="margin:4%; font-size: 70%;">
+       <a href="https://api.whatsapp.com/send?phone=51917580268&amp;text=%C2%A1%20Hola%20Min%20Lens%20!%20quisiera%20el%20color%20MINT%20(S/40.00)" target="_blank"> 
+      <button class="btn btn-outline-dark mt-auto" style="margin:4%; font-size: 70%;">
         Comprar
       </button></a>
       
       </div>
   </div>
-</div> -->
+</div> 
 
+<div class="col mb-2" id="arena" style="display: none;">
+  <div class="card  shadow" style="border-radius: 5%">
+
+      <img class="card-img-top" src="./tverde_files/arefu.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
+          <div class="text-center" style="margin-top: 3%;">
+              <h5 class="fw-bolder">AD ARENA</h5>
+              S/40.00 PEN
+          </div>
+      <div class="card-footer  border-top-0 bg-transparent" style="text-align: center ;">
+               
+      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal9" class="btn btn-outline-dark mt-auto" style="margin: 4% ;font-size: 70%;">
+        Ver
+      </button>
+       <a href="https://api.whatsapp.com/send?phone=51917580268&amp;text=%C2%A1%20Hola%20Min%20Lens%20!%20quisiera%20el%20color%20AD%20ARENA%20(S/40.00)" target="_blank"> 
+      <button class="btn btn-outline-dark mt-auto" style="margin:4%; font-size: 70%;">
+        Comprar
+      </button></a>
+      
+      </div>
+  </div>
+</div>
+
+<div class="col mb-2" id="quartzo" style="display: block;">
+  <div class="card  shadow" style="border-radius: 5%">
+
+      <img class="card-img-top" src="./tverde_files/quar.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
+          <div class="text-center" style="margin-top: 3%;">
+              <h5 class="fw-bolder">QUARTZO</h5>
+              S/40.00 PEN
+          </div>
+      <div class="card-footer  border-top-0 bg-transparent" style="text-align: center ;">
+               
+      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal10" class="btn btn-outline-dark mt-auto" style="margin: 4% ;font-size: 70%;">
+        Ver
+      </button>
+       <a href="https://api.whatsapp.com/send?phone=51917580268&amp;text=%C2%A1%20Hola%20Min%20Lens%20!%20quisiera%20el%20color%20QUARTZO%20(S/40.00)" target="_blank"> 
+      <button class="btn btn-outline-dark mt-auto" style="margin:4%; font-size: 70%;">
+        Comprar
+      </button></a>
+      
+      </div>
+  </div>
+</div>
 
 </div>
 
-
-
-<div class="modal fade " id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+<!--  lente 1-->
+<div class="modal fade " id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl ">
     <div class="modal-content">
       <div class="modal-header">
@@ -249,13 +426,13 @@
         
         <div class="container px-4 px-lg-5 my-3">
           <div class="row gx-4 gx-lg-5 align-items-center">
-            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 shadow" src="imgle/mela.jpeg" alt="..." style="border-radius: 5%;"></div>
+            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 shadow" src="./tverde_files/mela.jpeg" alt="..." style="border-radius: 5%;"></div>
               <div class="col-md-6">
                   <h1 class="display-5 fw-bolder">MEL</h1>
                     <div class="fs-5 mb-3">
                       <span>S/40.00 PEN</span>
                   </div>
-                  <h1 class="lead">Marca: Magister</h1>
+                  <h1 class="lead">Marca: Freshlady</h1>
                   <h1 class="lead">Diametro: 14 mm</h1>
                   <h1 class="lead">Curva base: 8.5 mm</h1>
                   <h1 class="lead">Contenido Acuoso: 40% </h1>
@@ -273,7 +450,7 @@
   </div>
 </div>
 
-<div class="modal fade " id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+<div class="modal fade " id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl ">
     <div class="modal-content">
       <div class="modal-header">
@@ -284,7 +461,7 @@
         
         <div class="container px-4 px-lg-5 my-3">
           <div class="row gx-4 gx-lg-5 align-items-center">
-            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 shadow" src="imges/celiade.jpeg" alt="..." style="border-radius: 5%;"></div>
+            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 shadow" src="./tverde_files/celiade.jpeg" alt="..." style="border-radius: 5%;"></div>
               <div class="col-md-6">
                   <h1 class="display-5 fw-bolder">Celine Gray</h1>
                     <div class="fs-5 mb-3">
@@ -310,7 +487,7 @@
 
 
  
- <div class="modal fade " id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+ <div class="modal fade " id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl ">
     <div class="modal-content">
       <div class="modal-header">
@@ -321,7 +498,7 @@
         
         <div class="container px-4 px-lg-5 my-3">
           <div class="row gx-4 gx-lg-5 align-items-center">
-            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 shadow" src="imgle/teiloq.jpeg" alt="..." style="border-radius: 5%;"></div>
+            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 shadow" src="./tverde_files/teiloq.jpeg" alt="..." style="border-radius: 5%;"></div>
               <div class="col-md-6">
                   <h1 class="display-5 fw-bolder">Taylor Green Gray</h1>
                     <div class="fs-5 mb-3">
@@ -346,7 +523,7 @@
 </div>
 
  
- <div class="modal fade " id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+ <div class="modal fade " id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl ">
     <div class="modal-content">
       <div class="modal-header">
@@ -357,7 +534,7 @@
         
         <div class="container px-4 px-lg-5 my-3">
           <div class="row gx-4 gx-lg-5 align-items-center">
-            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 shadow" src="imgle/ha.jpeg"alt="..." style="border-radius: 5%;"></div>
+            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 shadow" src="./tverde_files/ha.jpeg" alt="..." style="border-radius: 5%;"></div>
               <div class="col-md-6">
                   <h1 class="display-5 fw-bolder">Haze</h1>
                     <div class="fs-5 mb-3">
@@ -382,7 +559,7 @@
   </div>
 </div>
 
-<div class="modal fade " id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+<div class="modal fade " id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl ">
     <div class="modal-content">
       <div class="modal-header">
@@ -393,7 +570,7 @@
         
         <div class="container px-4 px-lg-5 my-3">
           <div class="row gx-4 gx-lg-5 align-items-center">
-            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 shadow" src="imges/minade.jpeg"alt="..." style="border-radius: 5%;"></div>
+            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 shadow" src="./tverde_files/minade.jpeg" alt="..." style="border-radius: 5%;"></div>
               <div class="col-md-6">
                   <h1 class="display-5 fw-bolder">Mint</h1>
                     <div class="fs-5 mb-3">
@@ -419,7 +596,7 @@
 
 
  <!-- lente 2-->
- <div class="modal fade " id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+ <div class="modal fade " id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl ">
     <div class="modal-content">
       <div class="modal-header">
@@ -430,7 +607,7 @@
         <!-- inicio -->
         <div class="container px-4 px-lg-5 my-3">
           <div class="row gx-4 gx-lg-5 align-items-center">
-            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 shadow" src="imges/limadentr.jpeg" alt="..." style="border-radius: 5%;"></div>
+            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 shadow" src="./tverde_files/limadentr.jpeg" alt="..." style="border-radius: 5%;"></div>
               <div class="col-md-6">
                   <h1 class="display-5 fw-bolder">Lima</h1>
                     <div class="fs-5 mb-3">
@@ -459,7 +636,7 @@
 
 
 
- <div class="modal fade " id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+ <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
   <div class="modal-dialog modal-xl ">
     <div class="modal-content">
       <div class="modal-header">
@@ -470,7 +647,7 @@
         
         <div class="container px-4 px-lg-5 my-3">
           <div class="row gx-4 gx-lg-5 align-items-center">
-            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 shadow" src="imgle/AMDE.jpeg" alt="..." style="border-radius: 5%;"></div>
+            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 shadow" src="./tverde_files/AMDE.jpeg" alt="..." style="border-radius: 5%;"></div>
               <div class="col-md-6">
                   <h1 class="display-5 fw-bolder">AMBER</h1>
                     <div class="fs-5 mb-3">
@@ -497,7 +674,7 @@
 
 
  <!-- lente 5-->
- <div class="modal fade " id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+ <div class="modal fade " id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl ">
     <div class="modal-content">
       <div class="modal-header">
@@ -508,7 +685,7 @@
         <!-- inicio -->
         <div class="container px-4 px-lg-5 my-3">
           <div class="row gx-4 gx-lg-5 align-items-center">
-            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 shadow" src="imgle/malaqu.jpeg" alt="..." style="border-radius: 5%;"></div>
+            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 shadow" src="./tverde_files/malaqu.jpeg" alt="..." style="border-radius: 5%;"></div>
               <div class="col-md-6">
                   <h1 class="display-5 fw-bolder">Malakite</h1>
                     <div class="fs-5 mb-3">
@@ -534,47 +711,139 @@
 </div>
 <!-- fin-->
 
+<!-- lente 5-->
+<div class="modal fade " id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">MIN LENS</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- inicio -->
+        <div class="container px-4 px-lg-5 my-3">
+          <div class="row gx-4 gx-lg-5 align-items-center">
+            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 shadow" src="./tverde_files/areade.jpeg" alt="..." style="border-radius: 5%;"></div>
+              <div class="col-md-6">
+                  <h1 class="display-5 fw-bolder">AD Arena</h1>
+                    <div class="fs-5 mb-3">
+                      <span>S/40.00 PEN</span>
+                  </div>
+                  <h1 class="lead">Marca: Freshlady</h1>
+                  <h1 class="lead">Diametro: 14,20 mm</h1>
+                  <h1 class="lead">Curva base: 8.6 mm</h1>
+                  <h1 class="lead">Contenido Acuoso: 42% </h1>
+                  <h1 class="lead">Material de la lente: Hema</h1>
+                  <h1 class="lead">Incluye: Estuche Clasico  </h1>
+                  <h1 class="lead">Vida Util: 12 meses</h1>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Atras</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin-->
+
+<!-- lente 5-->
+<div class="modal fade " id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">MIN LENS</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- inicio -->
+        <div class="container px-4 px-lg-5 my-3">
+          <div class="row gx-4 gx-lg-5 align-items-center">
+            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 shadow" src="./tverde_files/qua.jpeg" alt="..." style="border-radius: 5%;"></div>
+              <div class="col-md-6">
+                  <h1 class="display-5 fw-bolder">Quartzo</h1>
+                    <div class="fs-5 mb-3">
+                      <span>S/40.00 PEN</span>
+                  </div>
+                  <h1 class="lead">Marca: Freshlady</h1>
+                  <h1 class="lead">Diametro: 14,20 mm</h1>
+                  <h1 class="lead">Curva base: 8.6 mm</h1>
+                  <h1 class="lead">Contenido Acuoso: 42% </h1>
+                  <h1 class="lead">Material de la lente: Hema</h1>
+                  <h1 class="lead">Incluye: Estuche Clasico  </h1>
+                  <h1 class="lead">Vida Util: 12 meses</h1>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Atras</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin-->
+
 <div class="btn-group" role="group" aria-label="Basic example" style="padding-left: 3%;">
-  <button  style="border: none;background:none" >
-  <a class="navbar-brand " href="catalogo.html" style="color: black;font-size:85% ;">
-    <img src="img/flechasin.png" alt="" style="width: 25px;"> Volver
+  <button style="border: none;background:none">
+  <a class="navbar-brand " href="file:///D:/webjasmin/catalogo.html" style="color: black;font-size:85% ;">
+    <img src="./tverde_files/flechasin.png" alt="" style="width: 25px;"> Volver
   </a>
 </button>
 </div>
 
-<br>
-<br>
-<br>
 
 <!-- tab var-->
 <center>
-  <div class="container34" >
+  <div class="container34">
       <!-- code here -->
       <nav class="menu">
-          <a href="index.html" class="menu-item" style="color: rgb(0, 0, 0)">
-              <span style="margin-top: 2px;"><img src="img/inicio.png" alt="" style="width: 30%;"></span>
+          <a href="file:///D:/webjasmin/index.html" class="menu-item" style="color: rgb(0, 0, 0)">
+              <span style="margin-top: 2px;"><img src="./tverde_files/inicio.png" alt="" style="width: 30%;"></span>
               <span class="menu-item-label" style="margin-bottom: 0px;font-size: 60%;">Inicio</span>
           </a>
-          <a href="catalogo.html" class="menu-item" style="color: rgb(0, 0, 0) ;background-color: rgb(192, 192, 192) ">
-            <span style="margin-top: 2px;"><img src="img/catego1.png" alt="" style="width: 30%;"></span>
-              <span class="menu-item-label"  style="margin-bottom: 0px;font-size: 60%;">Catalogo</span>
+          <a href="file:///D:/webjasmin/catalogo.html" class="menu-item" style="color: rgb(0, 0, 0) ;background-color: rgb(192, 192, 192) ">
+            <span style="margin-top: 2px;"><img src="./tverde_files/catego1.png" alt="" style="width: 30%;"></span>
+              <span class="menu-item-label" style="margin-bottom: 0px;font-size: 60%;">Catalogo</span>
           </a>
-          <a href="accesorios.html" class="menu-item" style="color: rgb(0, 0, 0)">
-            <span style="margin-top: 2px;"><img src="img/acc.png" alt="" style="width: 30%;"></span>
-              <span class="menu-item-label"  style="margin-bottom: 0px;font-size: 60%;">Accesorios</span>
+          <a href="file:///D:/webjasmin/accesorios.html" class="menu-item" style="color: rgb(0, 0, 0)">
+            <span style="margin-top: 2px;"><img src="./tverde_files/acc.png" alt="" style="width: 30%;"></span>
+              <span class="menu-item-label" style="margin-bottom: 0px;font-size: 60%;">Accesorios</span>
           </a>
-          <a href="compra.html" class="menu-item" style="color: rgb(0, 0, 0)" >
-            <span style="margin-top: 2px;"><img src="img/compra1.png" alt="" style="width: 30%;"></span>
-              <span class="menu-item-label"  style="margin-bottom: 0px;font-size: 60%;">Compra</span>
+          <a href="file:///D:/webjasmin/compra.html" class="menu-item" style="color: rgb(0, 0, 0)">
+            <span style="margin-top: 2px;"><img src="./tverde_files/compra1.png" alt="" style="width: 30%;"></span>
+              <span class="menu-item-label" style="margin-bottom: 0px;font-size: 60%;">Compra</span>
           </a>
-          <a href="nosotros.html" class="menu-item" style="color: rgb(0, 0, 0)">
-            <span style="margin-top: 2px;"><img src="img/nosotro1.png" alt="" style="width: 30%;"></span>
-              <span class="menu-item-label"  style="margin-bottom: 0px;font-size: 60%;">Nosotros</span>
+          <a href="file:///D:/webjasmin/nosotros.html" class="menu-item" style="color: rgb(0, 0, 0)">
+            <span style="margin-top: 2px;"><img src="./tverde_files/nosotro1.png" alt="" style="width: 30%;"></span>
+              <span class="menu-item-label" style="margin-bottom: 0px;font-size: 60%;">Nosotros</span>
           </a>
       </nav>
       <!-- end of code -->
   </div>
 </center>
 
-</body>
-</html>
+<!--Scrip para contraer el menu -->
+<script src="./tverde_files/bootstrap.bundle.min.js(1).descarga"></script>
+<!--Fin-->
+
+
+<!-- scrip para ocultar-->
+<script>
+  function ocultar(){
+      var z = document.getElementById("ocultar");
+      if (z.style.display === "none") {
+          z.style.display = "block";            
+      } else {
+          z.style.display = "none";
+      }
+
+  }
+
+</script>
+
+<br><br>
+
+
+</body></html>
