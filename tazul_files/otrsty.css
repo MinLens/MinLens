@@ -1,0 +1,39 @@
+
+.container34 {
+	width: 100%;	
+	align-items: center;
+	justify-content: center;
+	position: fixed; bottom: 0px; 
+	margin-top: 2px;
+
+
+}
+
+.menu {
+	display: flex;
+	flex-grow: 1;
+	height: 70%;
+	max-width: 370px;
+	border-radius: 5px;
+	overflow: hidden;
+	background-color: rgb(231, 231, 231);
+	box-shadow: 0 0 1px 0 rgba(#342ead, 0.25), 0 15px 30px 0 rgba(#342ead, 0.1);
+	
+}
+
+.menu-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+	text-decoration: none;
+
+}
+
+.menu-item-label {
+	display: block;
+	font-size: 13px;
+	color: mix(#fff, #342ead, 70%);
+	transition: 0.25s ease;
+}
