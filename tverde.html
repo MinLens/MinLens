@@ -38,16 +38,16 @@
 <div id="ocultar" style="display: none;"> 
   <p>*IMPORTANTE GUARDAR* //Amarillo = Oculto  //Verde = Mostrar//</p>
   
-  <button id="b1" style="background: yellow;" onclick="mel()">Mel</button>
+  <button id="b1" style="background: green;" onclick="mel()">Mel</button>
   <button id="b2" style="background: green;" onclick="gray()">Green Gray</button>
-  <button id="b3" style="background: yellow;" onclick="haze()">Haze</button>
+  <button id="b3" style="background: green;" onclick="haze()">Haze</button>
   <button id="b4" style="background: yellow;" onclick="malakite()">Malakite</button>
   <button id="b5" style="background: yellow;" onclick="amber()">Amber</button>
-  <button id="b6" style="background: yellow;" onclick="celina()">Celine Gray</button>
+  <button id="b6" style="background: green;" onclick="celina()">Celine Gray</button>
   <button id="b7" style="background: green;" onclick="lima()">Lima</button>
   <button id="b8" style="background: yellow;" onclick="mint()">Mint</button>
   <button id="b9" style="background: yellow;" onclick="arena()">AD Arena</button>
-  <button id="b10" style="background: green;" onclick="quartzo()">Quartzo</button>
+  <button id="b10" style="background: yellow;" onclick="quartzo()">Quartzo</button>
 
   <button style="background: red;" onclick="ocultar()">Guardar</button>
 
@@ -178,7 +178,7 @@
   <!--Cartas de ventas-->
   <div class="row gx-2 gx-lg-2 row-cols-2 row-cols-md-3 row-cols-xl-3 justify-content-center br" style="margin-left: 1%; margin-right:1%;">
 
-    <div class="col mb-2" id="mel" style="display: none;">
+    <div class="col mb-2" id="mel" style="display: block;">
         <div class="card shadow " style="border-radius: 5%;">
 
             <img class="card-img-top" src="./tverde_files/MEL.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
@@ -201,32 +201,31 @@
         </div>
     </div>
 
-
-
-    <div class="col mb-2" id="gray" style="display: block;">
-      <div class="card shadow" style="border-radius: 5%;">
-          <img class="card-img-top" src="./tverde_files/teilo.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
-              <div class="text-center" style="margin-top: 3%;">
-                  <h5 class="fw-bolder">GREEN GRAY </h5>
-                  S/40.00 PEN
+      <div class="col mb-2" id="gray" style="display: block;">
+          <div class="card shadow " style="border-radius: 5%;">
+  
+              <img class="card-img-top" src="./tverde_files/teilo.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
+                  <div class="text-center" style="margin-top: 3%;">
+                      <h5 class="fw-bolder">GREEN GRAY</h5>
+                      S/40.00 PEN
+                  </div>
+              <div class="card-footer border-top-0 bg-transparent" style="text-align: center;">
+                
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2" class="btn btn-outline-dark mt-auto" style="margin: 4% ;font-size: 70%;">
+              Ver
+            </button>
+              <a href="https://api.whatsapp.com/send?phone=51917580268&amp;text=%C2%A1%20Hola%20Min%20Lens%20!%20quisiera%20el%20color%20GREEN%20GRAY%20(S/40.00)" target="_blank"> 
+            <button class="btn btn-outline-dark mt-auto" style="margin:4%; font-size: 70%;">
+              Comprar
+            </button></a>
+           
+  
               </div>
-          <div class="card-footer  border-top-0 bg-transparent" style="text-align: center;">
-                   
-          <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2" class="btn btn-outline-dark mt-auto" style="margin: 4% ;font-size: 70%;">
-            Ver
-          </button>
-          <a href="https://api.whatsapp.com/send?phone=51917580268&amp;text=%C2%A1%20Hola%20Min%20Lens%20!%20quisiera%20el%20color%20Taylor%20Green%20Gray%20(S/40.00)" target="_blank">
-          <button class="btn btn-outline-dark mt-auto" style="margin:4%; font-size: 70%;">
-            Comprar
-          </button></a>
-          
           </div>
       </div>
-  </div>
 
 
-
-    <div class="col mb-2" id="haze" style="display: none;">
+    <div class="col mb-2" id="haze" style="display: block;">
       <div class="card  shadow" style="border-radius: 5%">
 
           <img class="card-img-top" src="./tverde_files/hate.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
@@ -248,6 +247,7 @@
           </div>
       </div>
   </div> 
+
 
 
 
@@ -298,12 +298,11 @@
     </div>
 </div> 
 
-
-<div class="col mb-2" id="celina" style="display: none;">
+<div class="col mb-2" id="celina" style="display: block;">
   <div class="card  shadow" style="border-radius: 5%; ">
 
 
-      <img class="card-img-top" src="./tverde_files/celiafue.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
+      <img class="card-img-top" src="./tverde_files/CELIGRE.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
           <div class="text-center" style="margin-top: 3%;">
               <h5 class="fw-bolder">CELINE GRAY</h5>
               S/40.00 PEN
@@ -325,7 +324,7 @@
 <div class="col mb-2" id="lima" style="display: block;">
   <div class="card  shadow" style="border-radius: 5%">
 
-      <img class="card-img-top" src="./tverde_files/lima.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
+      <img class="card-img-top" src="./tverde_files/LIMAF.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
           <div class="text-center" style="margin-top: 3%;">
               <h5 class="fw-bolder">LIMA</h5>
               S/40.00 PEN
@@ -390,7 +389,7 @@
   </div>
 </div>
 
-<div class="col mb-2" id="quartzo" style="display: block;">
+<div class="col mb-2" id="quartzo" style="display: none;">
   <div class="card  shadow" style="border-radius: 5%">
 
       <img class="card-img-top" src="./tverde_files/quar.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
@@ -484,6 +483,7 @@
     </div>
   </div>
 </div>
+
 
 
  
