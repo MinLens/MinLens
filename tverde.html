@@ -9,7 +9,7 @@
     <link rel="icon" href="./tverde_files/logo.jpeg">
     <link rel="stylesheet" href="./tverde_files/otrsty.css">
 </head>
-<body>
+<body class="" >
        
       <div style="background-color: black; text-align: center; color:white ;padding: 4px; font-size: 15px;">
         <h8> 🚚 🎁 Envio a todo Lima-Peru 🎁 🚚</h8>
@@ -38,16 +38,16 @@
 <div id="ocultar" style="display: none;"> 
   <p>*IMPORTANTE GUARDAR* //Amarillo = Oculto  //Verde = Mostrar//</p>
   
-  <button id="b1" style="background: yellow;" onclick="mel()">Mel</button>
+  <button id="b1" style="background: green;" onclick="mel()">Mel</button>
   <button id="b2" style="background: green;" onclick="gray()">Green Gray</button>
   <button id="b3" style="background: yellow;" onclick="haze()">Haze</button>
   <button id="b4" style="background: green;" onclick="malakite()">Malakite</button>
   <button id="b5" style="background: yellow;" onclick="amber()">Amber</button>
   <button id="b6" style="background: green;" onclick="celina()">Celine Gray</button>
-  <button id="b7" style="background: yellow;" onclick="lima()">Lima</button>
+  <button id="b7" style="background: green;" onclick="lima()">Lima</button>
   <button id="b8" style="background: yellow;" onclick="mint()">Mint</button>
   <button id="b9" style="background: green;" onclick="arena()">AD Arena</button>
-  <button id="b10" style="background: yellow;" onclick="quartzo()">Quartzo</button>
+  <button id="b10" style="background: green;" onclick="quartzo()">Quartzo</button>
 
   <button style="background: red;" onclick="ocultar()">Guardar</button>
 
@@ -178,7 +178,7 @@
   <!--Cartas de ventas-->
   <div class="row gx-2 gx-lg-2 row-cols-2 row-cols-md-3 row-cols-xl-3 justify-content-center br" style="margin-left: 1%; margin-right:1%;">
 
-    <div class="col mb-2" id="mel" style="display: none;">
+    <div class="col mb-2" id="mel" style="display: block;">
         <div class="card shadow " style="border-radius: 5%;">
 
             <img class="card-img-top" src="./tverde_files/MEL.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
@@ -321,7 +321,7 @@
 </div> 
 
 
-<div class="col mb-2" id="lima" style="display: none;">
+<div class="col mb-2" id="lima" style="display: block;">
   <div class="card  shadow" style="border-radius: 5%">
 
       <img class="card-img-top" src="./tverde_files/LIMAF.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
@@ -391,10 +391,10 @@
   </div>
 </div>
 
-<div class="col mb-2" >
+<div class="col mb-2">
   <div class="card shadow " style="border-radius: 5%;">
 
-      <img class="card-img-top" src="imgmie/flaf.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
+      <img class="card-img-top" src="./tverde_files/flaf.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
           <div class="text-center" style="margin-top: 3%;">
               <h5 class="fw-bolder">GREEN FLARE</h5>
               S/40.00 PEN
@@ -413,7 +413,7 @@
   </div>
 </div>
 
-<div class="col mb-2" id="quartzo" style="display: none;">
+<div class="col mb-2" id="quartzo" style="display: block;">
   <div class="card  shadow" style="border-radius: 5%">
 
       <img class="card-img-top" src="./tverde_files/quar.jpeg" alt="..." style="border-top-left-radius: 5%; border-top-right-radius:5% ;">
@@ -440,7 +440,7 @@
 </div>
 
 <!--  lente 1-->
-<div class="modal fade " id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
   <div class="modal-dialog modal-xl ">
     <div class="modal-content">
       <div class="modal-header">
@@ -513,7 +513,7 @@
 
 
  
- <div class="modal fade " id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
   <div class="modal-dialog modal-xl ">
     <div class="modal-content">
       <div class="modal-header">
@@ -775,7 +775,7 @@
 <!-- fin-->
 
 <!-- lente 5-->
-<div class="modal fade " id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
   <div class="modal-dialog modal-xl ">
     <div class="modal-content">
       <div class="modal-header">
@@ -811,7 +811,7 @@
 </div>
 <!-- fin-->
 
-<div class="modal fade " id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
   <div class="modal-dialog modal-xl ">
     <div class="modal-content">
       <div class="modal-header">
@@ -822,7 +822,7 @@
         
         <div class="container px-4 px-lg-5 my-3">
           <div class="row gx-4 gx-lg-5 align-items-center">
-            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 shadow" src="imgmie/flde.jpeg" alt="..." style="border-radius: 5%;"></div>
+            <div class="col-md-6 "><img class="card-img-top mb-5 mb-md-0 shadow" src="./tverde_files/flde.jpeg" alt="..." style="border-radius: 5%;"></div>
               <div class="col-md-6">
                   <h1 class="display-5 fw-bolder">Green Flare</h1>
                     <div class="fs-5 mb-3">
